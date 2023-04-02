@@ -1,0 +1,120 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    background: #FFD900;
+    height: 80px;
+}
+
+header img {
+    padding-left: 2rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+section {
+    display: grid;
+    grid-auto-flow: column;
+}
+
+#rev {
+    background: #514988;
+    width: 33rem;
+    height: 33rem;
+    color: white;
+    text-align: center;
+    padding: 0rem 4rem 0rem 4rem;
+}
+#rev h1 {
+    color: #F3C61F;
+    padding-top: 2rem;
+    font-size: 3rem;
+}
+#rev h4 {
+    padding-top: 2rem;
+    font-size: 23px;
+}
+#rev p {
+    padding-top: 4rem;
+    font-size: 20px;
+}
+
+#count {
+    display: grid;
+    grid-auto-flow: column;
+    text-align: center;
+    color: #514988;
+    padding-top: 2rem;
+    font-size: 2rem;
+}
+
+#pcount {
+    padding-top: 1rem;
+    font-size: 23px;
+    color: #E33881;
+    text-align: center;
+}
+
+#video {
+    padding-top: 1rem;
+}
+
+footer {
+    display: grid;
+    margin-bottom: 2rem;
+}
+
+#dois {
+    display: grid;
+    grid-auto-flow: column;
+}
+
+footer h4 {
+    padding: 1rem 0rem 1rem 5rem;
+    font-size: 22px;
+    color: #F3C61F;
+}
+
+#dois {
+    margin-left: 5rem;
+}
+
+#invitation img {
+    transition: 600ms;
+    transform: scale(1);
+}
+#invitation img:hover {
+    transform: scale(1.03);
+    transition: 600ms;
+    cursor: pointer;
+}
+
+button {
+    width: 400px;
+    height: 100px;
+    font-size: xx-large;
+    font-weight: 700;
+    color: white;
+    margin-top: 2rem;
+
+    background: #514988;
+    border-radius: 20px;
+    border-style: none;
+
+    transition: 600ms;
+    transform: scale(1);
+}
+
+button:hover {
+    transform: scale(1.03);
+    transition: 600ms all ease 0.3s;
+
+    color: #F3C61F;
+    cursor: pointer;
+}
