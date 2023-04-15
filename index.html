@@ -60,18 +60,43 @@
         </div>
         <div id="dois">
             <div id="invitation">
-                <img width="165" src="assets/quinta.svg">
-                <img width="165" src="assets/sexta.svg">
-                <img width="165" src="assets/sab.svg">
-                <img width="165" src="assets/dom.svg">
+                <img width="165" src="assets/quinta.svg"
+                    onclick="selectCard('#qui')"
+                    onmouseover="highlightCard('#qui')"
+                    onmouseout="highlightCard('#qui')"
+                    id="qui">
+                <img width="165" src="assets/sexta.svg"
+                    onclick="selectCard('#sex')"
+                    onmouseover="highlightCard('#sex')"
+                    onmouseout="highlightCard('#sex')"
+                    id="sex">
+                <img width="165" src="assets/sab.svg"
+                    onclick="selectCard('#sab')"
+                    onmouseover="highlightCard('#sab')"
+                    onmouseout="highlightCard('#sab')"
+                    id="sab">
+                <img width="165" src="assets/dom.svg"
+                    onclick="selectCard('#dom')"
+                    onmouseover="highlightCard('#dom')"
+                    onmouseout="highlightCard('#dom')"
+                    id="dom">
             </div>
             <div>
-                <button>GARANTA O SEU!</button>
+                <button onclick="showSelectedCards()">GARANTA O SEU!</button>
             </div>
+        </div>
+
+        <div id="form">
+            <form action="https://www.google.com">
+                <input id="email" type="email" placeholder="Seu email" required>
+                <input id="submit" type="submit">
+            </form>
         </div>
     </footer>
 
     <script src="index.js"></script>
+
+    <script src="borda.js"></script>
 
 </body>
 </html>

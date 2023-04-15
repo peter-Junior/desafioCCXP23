@@ -67,7 +67,6 @@ section {
 
 footer {
     display: grid;
-    margin-bottom: 2rem;
 }
 
 #dois {
@@ -117,4 +116,44 @@ button:hover {
 
     color: #F3C61F;
     cursor: pointer;
+}
+
+.card-highlight {
+    box-shadow: 10px 10px 10px 10px grey;
+}
+
+.card-selected {
+    border: 5px solid green;
+}
+
+#form {
+    margin-top: 2rem;
+    background: #FFD900;
+    height: 6rem;
+    padding-left: 3rem;
+    display: flex;
+    align-items: center;
+}
+
+#email {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: lightgray;
+    color: black;
+    padding-left: 1rem;
+    border: none;
+    height: 2rem;
+    border-radius: 15px;
+    width: 13rem;
+}
+
+#submit {
+    width: 10rem;
+    height: 2rem;
+    font-size: large;
+    font-weight: 700;
+    color: white;
+
+    background: #514988;
+    border-radius: 20px;
+    border-style: none;
 }
